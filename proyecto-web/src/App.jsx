@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Autenticacion from "./components/Autenticacion";
 import Cliente from "./components/Cliente";
 import Reserva from "./components/Reserva";
 import Pago from "./components/Pago";
@@ -15,6 +16,8 @@ function App() {
           <h1>BONONO</h1>
           <p>Gestión de clientes, reservas y pagos</p>
         </section>
+
+        <Autenticacion />
 
         <Cliente />
         <Reserva />
